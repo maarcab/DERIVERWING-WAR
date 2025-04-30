@@ -10,7 +10,6 @@ public class CargolAI : MonoBehaviour
 
     private bool movingRight = true;
 
-    // Update is called once per frame
     void Update()
     {
         Patrol();

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BoxDestroyer
   - PlayableBox
+  - PlayerKiller
   layers:
   - Default
   - TransparentFX
