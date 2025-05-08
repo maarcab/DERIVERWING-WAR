@@ -1,7 +1,7 @@
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
 
@@ -19,6 +19,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         float moveInput = Input.GetAxis("Horizontal");
         transform.position += new Vector3(moveInput * moveSpeed * Time.deltaTime, 0f, 0f);
+
         if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.linearVelocity.y) < 0.001f)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
