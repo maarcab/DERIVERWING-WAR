@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4918021014435160640}
   - component: {fileID: -957182850631232284}
   m_Layer: 0
-  m_Name: Spike
+  m_Name: SpikeBad
   m_TagString: PlayerKiller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8877702457667932185, guid: da15d7033cf326d42aa588cc225075ad, type: 3}
+  m_Sprite: {fileID: 8382717070696663976, guid: f46f7c974ebb3be43a1c14d13cfad127, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.64, y: 0.36}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1.64, y: 0.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.64, y: 0.36}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1.64, y: 0.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
