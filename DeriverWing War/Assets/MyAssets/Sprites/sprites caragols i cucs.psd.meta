@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprites caragols i cucs_0: -1204381570565464752
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

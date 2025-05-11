@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      palomo_0: 5575071213265294243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
