@@ -2381,27 +2381,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.151094
+      value: 3.9487073
       objectReference: {fileID: 0}
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.151094
+      value: 3.9487073
       objectReference: {fileID: 0}
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.151094
+      value: 3.9487073
       objectReference: {fileID: 0}
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.3114
+      value: -39.8898
       objectReference: {fileID: 0}
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.5386
+      value: -7.6198
       objectReference: {fileID: 0}
     - target: {fileID: 515169649224824166, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0326588
+      value: -0.0327
       objectReference: {fileID: 0}
     - target: {fileID: 707441539725139246, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: WINTEXT
@@ -2516,7 +2516,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.77, y: 1.18}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2568,8 +2568,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.959195, b: 0, a: 1}
+  m_Sprite: {fileID: -6071284179673431502, guid: b096410af54270f49b22774a75a7d91f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2588,8 +2588,8 @@ Transform:
   m_GameObject: {fileID: 1515350456}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.63, y: 4.1249, z: 0}
-  m_LocalScale: {x: 3.2738, y: 2.4703162, z: 1}
+  m_LocalPosition: {x: 11.26, y: 5.26, z: 0}
+  m_LocalScale: {x: 5.2523284, y: 3.9632573, z: 1.6043522}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
