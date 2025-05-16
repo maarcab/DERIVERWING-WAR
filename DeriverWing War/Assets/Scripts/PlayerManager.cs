@@ -11,15 +11,15 @@ public class PlayerManager : MonoBehaviour
         {
             LOSETEXT.gameObject.SetActive(true);
             Time.timeScale = 0;
-            //GameOver();
+            GameOver();
         }
     }
     private void OnDestroy()
     {
         if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
         {
-            //LOSETEXT.gameObject.SetActive(true);
-            //Time.timeScale = 0;
+            LOSETEXT.gameObject.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
