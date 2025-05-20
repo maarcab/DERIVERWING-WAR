@@ -13,4 +13,13 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(Scene);
         Time.timeScale = 1;
     }
+    public void ChangePanel(GameObject gameObject)
+    {
+        gameObject.SetActive(true);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
