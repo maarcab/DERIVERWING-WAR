@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ecdb3a68e64db1f4590abb7be84334cc
+guid: 4a417e2b4d636bb4faf4026d041fbeba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5968111353585100722
-    second: fons 3 copia_0
+      213: 3173635575368376684
+    second: fons 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,11 +96,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fons 3 copia_0
+      name: fons 3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b76a6ad7adf2d250800000000000000
-      internalID: 5968111353585100722
+      spriteID: c61ef5cbdb40b0c20800000000000000
+      internalID: 3173635575368376684
       vertices: []
       indices: 
       edges: []
@@ -134,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fons 3 copia_0: 5968111353585100722
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
