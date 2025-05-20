@@ -4216,6 +4216,18 @@ PrefabInstance:
       propertyPath: WINTEXT
       value: 
       objectReference: {fileID: 1339460919}
+    - target: {fileID: 1725349215235312869, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725349215235312869, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725349215235312869, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 2687420374432256952, guid: 4863cf62b17a8d44b83c5e17a8c55d74, type: 3}
       propertyPath: m_Name
       value: PlayableBox
@@ -6194,6 +6206,10 @@ PrefabInstance:
     - target: {fileID: 4322901336932376240, guid: a6dec832a1469ee4691beaa19df5658f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064391235955821912, guid: a6dec832a1469ee4691beaa19df5658f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
