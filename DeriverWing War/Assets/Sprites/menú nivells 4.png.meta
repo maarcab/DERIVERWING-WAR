@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "men\xFA nivells 4_0": 3954506944871756122
+      "men\xFA nivells 4_1": -2634497065965283003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
