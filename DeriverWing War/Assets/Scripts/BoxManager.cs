@@ -14,7 +14,7 @@ public class BoxManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("BoxDestroyer"))
+        if (collision.CompareTag("BoxDestroyer") || collision.CompareTag("PlayerKiller"))
         {
             Respawn();
         }
@@ -43,7 +43,7 @@ public class BoxManager : MonoBehaviour
         if (isDecomposing)
         {
             timer += Time.deltaTime;
-            if (timer >= 1f)
+            if (timer >= 0.05f)
             {
                 Decompose();
                 timer = 0f;
@@ -57,6 +57,7 @@ public class BoxManager : MonoBehaviour
 
     void Respawn()
     {
+        Debug.Log("Respawning Box");
         this.transform.position = BoxSpawner.position;
         this.transform.rotation = BoxSpawner.rotation;
     }
