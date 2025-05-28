@@ -8,6 +8,7 @@ TagManager:
   - PlayableBox
   - PlayerKiller
   - Win
+  - Hongo
   layers:
   - Default
   - TransparentFX
