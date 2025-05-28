@@ -2268,7 +2268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550.24316, y: -134}
+  m_AnchoredPosition: {x: 421.38135, y: -192.0149}
   m_SizeDelta: {x: 200.1815, y: 114.542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095455954
@@ -2434,7 +2434,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: 22.928795}
+  m_AnchoredPosition: {x: -334.66177, y: -114.97068}
   m_SizeDelta: {x: 3.2083333, y: 3.9375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245145809
@@ -2459,7 +2459,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -6644855813935807117, guid: 9c94fa4defdb9e144ae513cd967c8089, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2509,7 +2509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 561.8618, y: 345.0149}
+  m_AnchoredPosition: {x: 433, y: 287}
   m_SizeDelta: {x: 517.7184, y: 317.2743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1460354680
@@ -2914,7 +2914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 553, y: 47}
+  m_AnchoredPosition: {x: 424.13818, y: -11.014893}
   m_SizeDelta: {x: 200.1815, y: 114.542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1617518389
@@ -3191,7 +3191,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 552.3108, y: -331}
+  m_AnchoredPosition: {x: 423.44897, y: -389.0149}
   m_SizeDelta: {x: 200.1815, y: 114.542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696124259
@@ -3448,10 +3448,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d54a7e097b85e754784e55b4fb656619, type: 3}
+  m_Resource: {fileID: 8300000, guid: d54a7e097b85e754784e55b4fb656619, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
