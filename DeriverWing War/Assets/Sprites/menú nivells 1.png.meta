@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 51bca9871268eb44eb58b9ba4fc9cfe9
+guid: c6d474679c7c19342b365972e850bf5f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 345118993929392516
-    second: closed options_0
+      213: -368230860189851178
+    second: "men\xFA nivells 1_0"
+  - first:
+      213: 8766310471580592287
+    second: "men\xFA nivells 1_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: closed options_0
+      name: "men\xFA nivells 1_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 64
-        height: 35
+        x: 62
+        y: 129
+        width: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 481d66e75eb1ac400800000000000000
-      internalID: 345118993929392516
+      spriteID: 6d12c0fcbf7c3eaf0800000000000000
+      internalID: -368230860189851178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "men\xFA nivells 1_1"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 92
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9829519de038a970800000000000000
+      internalID: 8766310471580592287
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      closed options_0: 345118993929392516
+      "men\xFA nivells 1_0": -368230860189851178
+      "men\xFA nivells 1_1": 8766310471580592287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
