@@ -182,7 +182,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 27f1ad773b5c1b7479c205d9c1605129, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -818,7 +818,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -95.39119}
-  m_SizeDelta: {x: 235.0215, y: 55.4803}
+  m_SizeDelta: {x: 64, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &292531146
 MonoBehaviour:
@@ -896,8 +896,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 3479638329098239172, guid: 7dba1b053c40aa943a9d88fd732c6f78, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3188,7 +3188,7 @@ PrefabInstance:
     - target: {fileID: -4388569413026620272, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8231683399855453745, guid: a5f6307ec565ce24c9e3e4a012cd3790, type: 3}
+      objectReference: {fileID: -6271631080465993329, guid: b088cce73e8663d43b630f7fe0d48c43, type: 3}
     - target: {fileID: -4388569413026620272, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_SortingLayer
       value: 1
@@ -3467,8 +3467,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 31
+    m_Font: {fileID: 12800000, guid: 27f1ad773b5c1b7479c205d9c1605129, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5175,7 +5175,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 27f1ad773b5c1b7479c205d9c1605129, type: 3}
     m_FontSize: 31
     m_FontStyle: 0
     m_BestFit: 0
@@ -5600,8 +5600,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 31
+    m_Font: {fileID: 12800000, guid: 27f1ad773b5c1b7479c205d9c1605129, type: 3}
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
