@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836409492603813913}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4336284683403606082}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,9 +75,9 @@ GameObject:
   - component: {fileID: 7750968488268139682}
   - component: {fileID: 6284640781537792632}
   - component: {fileID: 5316626393207289627}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cargol
-  m_TagString: BoxDestroyer
+  m_TagString: PlayerKiller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
