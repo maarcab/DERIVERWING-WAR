@@ -23,7 +23,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveInput = Input.GetAxis("Horizontal");
+        //moveInput = Input.GetAxis("Horizontal");
+        moveInput = 0f;
+        if (Input.GetKey(KeyCode.A))
+            moveInput = -1f;
+        else if (Input.GetKey(KeyCode.D))
+            moveInput = 1f;
+
         CheckDirection();
 
         if (!Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer))
