@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class BoxManager : MonoBehaviour
 {
-    [SerializeField] private Transform boxSpawner;
+    [SerializeField] private Transform spawnPosition;
     public Text winText;
     public Image durabilityBar;
     public float durability, maxDurability;
@@ -57,8 +57,8 @@ public class BoxManager : MonoBehaviour
 
     void Respawn()
     {
-        this.transform.position = boxSpawner.position;
-        this.transform.rotation = boxSpawner.rotation;
+        this.transform.position = spawnPosition.position;
+        this.transform.rotation = spawnPosition.rotation;
     }
     void Decompose()
     {
