@@ -27,20 +27,6 @@ public class GameManager : MonoBehaviour
     bool isPaused = false;
     public void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Escape))
-        //{
-        //    pause.SetActive(true);
-        //    isPaused = true;
-        //    Time.timeScale = 0;
-        //    while (isPaused == true)
-        //    {
-        //        if (Input.GetKeyDown(KeyCode.Escape))
-        //        {
-        //            pause.SetActive(false);
-        //            Time.timeScale = 1;
-        //        }
-        //    }
-        //}
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused == false)

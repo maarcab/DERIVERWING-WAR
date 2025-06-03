@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class BoxManager : MonoBehaviour
 {
-    [SerializeField] private Transform BoxSpawner;
-    public Text WINTEXT;
+    [SerializeField] private Transform boxSpawner;
+    public Text winText;
     public Image durabilityBar;
     public float durability, maxDurability;
     public float damage;
@@ -21,7 +21,7 @@ public class BoxManager : MonoBehaviour
 
         if (collision.CompareTag("Win"))
         {
-            WINTEXT.gameObject.SetActive(true);
+            winText.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
 
@@ -57,9 +57,8 @@ public class BoxManager : MonoBehaviour
 
     void Respawn()
     {
-        Debug.Log("Respawning Box");
-        this.transform.position = BoxSpawner.position;
-        this.transform.rotation = BoxSpawner.rotation;
+        this.transform.position = boxSpawner.position;
+        this.transform.rotation = boxSpawner.rotation;
     }
     void Decompose()
     {
