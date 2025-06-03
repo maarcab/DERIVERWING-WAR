@@ -119,6 +119,10 @@ PrefabInstance:
       propertyPath: maxDurability
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: -7290021315661097217, guid: 20f5066df3db6564e879c882cb59e9b4, type: 3}
+      propertyPath: spawnPosition
+      value: 
+      objectReference: {fileID: 3074250552575633957}
     - target: {fileID: 1335602967977884300, guid: 20f5066df3db6564e879c882cb59e9b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
