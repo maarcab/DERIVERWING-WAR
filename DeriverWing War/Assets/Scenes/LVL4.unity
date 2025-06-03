@@ -3192,6 +3192,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1673065537}
     - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 1673065537}
+    - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: boxSpawner
+      value: 
+      objectReference: {fileID: 1152847104}
+    - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
       propertyPath: durabilityBar
       value: 
       objectReference: {fileID: 1098731600}
@@ -3200,6 +3208,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+--- !u!4 &1152847104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3074250552575633957, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+  m_PrefabInstance: {fileID: 1152847103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1171331562
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,6 +5593,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6363189991045114766, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: LOSETEXT
+      value: 
+      objectReference: {fileID: 388411591}
+    - target: {fileID: -6363189991045114766, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
+      propertyPath: loseText
       value: 
       objectReference: {fileID: 388411591}
     - target: {fileID: -4388569413026620272, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
