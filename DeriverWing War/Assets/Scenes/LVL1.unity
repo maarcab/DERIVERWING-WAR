@@ -290,6 +290,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76997267}
   m_CullTransparentMesh: 1
+--- !u!4 &130172026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3074250552575633957, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+  m_PrefabInstance: {fileID: 9087297557844044495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &181003812
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,6 +3486,10 @@ PrefabInstance:
       propertyPath: LOSETEXT
       value: 
       objectReference: {fileID: 1744959809}
+    - target: {fileID: -6363189991045114766, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
+      propertyPath: loseText
+      value: 
+      objectReference: {fileID: 1744959809}
     - target: {fileID: -4388569413026620272, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -6382,6 +6391,14 @@ PrefabInstance:
       propertyPath: WINTEXT
       value: 
       objectReference: {fileID: 1339460919}
+    - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 1339460919}
+    - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: boxSpawner
+      value: 
+      objectReference: {fileID: 130172026}
     - target: {fileID: 7627111778479329116, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
       propertyPath: durabilityBar
       value: 

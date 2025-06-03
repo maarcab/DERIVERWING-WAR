@@ -4,12 +4,12 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public Text LOSETEXT;
+    public Text loseText;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerKiller"))
         {
-            LOSETEXT.gameObject.SetActive(true);
+            loseText.gameObject.SetActive(true);
             Time.timeScale = 0;
             GameOver();
         }
@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
         {
-            LOSETEXT.gameObject.SetActive(true);
+            loseText.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
     }
