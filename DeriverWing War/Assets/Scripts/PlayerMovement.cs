@@ -1,5 +1,3 @@
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
