@@ -780,7 +780,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 4123b46d56f8d1045bbbeedb9ab8f356, type: 3}
+    m_Font: {fileID: 12800000, guid: 27f1ad773b5c1b7479c205d9c1605129, type: 3}
     m_FontSize: 77
     m_FontStyle: 0
     m_BestFit: 0
@@ -3103,17 +3103,21 @@ PrefabInstance:
       propertyPath: LOSETEXT
       value: 
       objectReference: {fileID: 385494247}
+    - target: {fileID: -6363189991045114766, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
+      propertyPath: loseText
+      value: 
+      objectReference: {fileID: 385494247}
     - target: {fileID: -4388569413026620272, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1936163241594494215, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.69
+      value: 11.48
       objectReference: {fileID: 0}
     - target: {fileID: 1936163241594494215, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.13
+      value: -6.06
       objectReference: {fileID: 0}
     - target: {fileID: 1936163241594494215, guid: 92b2865ec1f96a54f8ef4adff29a6991, type: 3}
       propertyPath: m_LocalPosition.z
