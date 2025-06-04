@@ -30,6 +30,10 @@ MonoBehaviour:
     m_path: Assets/Scenes/LVL3.unity
   - m_enabled: 1
     m_path: Assets/Scenes/LVL4.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/LVL5.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/LVL6.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
