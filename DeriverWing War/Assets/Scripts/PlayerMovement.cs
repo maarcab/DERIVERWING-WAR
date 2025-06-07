@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 3f;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private Transform wallCheck;
+    [SerializeField] private Transform wallCheck2;
+    [SerializeField] private Transform wallCheck3;
+    [SerializeField] private Transform wallCheck4;
 
     private float moveInput;
     private bool movingRight;
@@ -21,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //moveInput = Input.GetAxis("Horizontal");
         moveInput = 0f;
         if (Input.GetKey(KeyCode.A))
             moveInput = -1f;
@@ -30,7 +32,10 @@ public class PlayerMovement : MonoBehaviour
 
         CheckDirection();
 
-        if (!Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer))
+        if (!Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) && 
+            !Physics2D.Raycast(wallCheck2.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
+            !Physics2D.Raycast(wallCheck3.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
+            !Physics2D.Raycast(wallCheck4.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer))
         {
             transform.position += new Vector3(moveInput * moveSpeed * Time.deltaTime, 0f, 0f);
         }

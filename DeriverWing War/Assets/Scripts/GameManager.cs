@@ -17,7 +17,10 @@ public class GameManager : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
-
+    public void HidePanel(GameObject gameObject)
+    {
+        gameObject.SetActive(false);
+    }
     public void QuitGame()
     {
         Application.Quit();
