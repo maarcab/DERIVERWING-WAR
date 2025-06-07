@@ -28,6 +28,12 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject pause;
     bool isPaused = false;
+    public void ResumeGame(GameObject gameObject)
+    {
+        gameObject.SetActive(false);
+        Time.timeScale = 1;
+        isPaused = false;
+    }
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -38,7 +44,7 @@ public class GameManager : MonoBehaviour
                 isPaused = true;
                 Time.timeScale = 0;
             }
-            else
+            else if (isPaused == true)
             {
                 pause.SetActive(false);
                 isPaused = false;
