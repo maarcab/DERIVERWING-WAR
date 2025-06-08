@@ -15,7 +15,6 @@ public class ButtonManager : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("ha entrado");
         if (other.CompareTag("Player"))
         {
             isPlayerNear = true;
@@ -24,7 +23,6 @@ public class ButtonManager : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("ha salido");
         if (other.CompareTag("Player"))
         {
             isPlayerNear = false;

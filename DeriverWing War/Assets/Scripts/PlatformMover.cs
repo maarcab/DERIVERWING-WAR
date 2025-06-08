@@ -1,4 +1,3 @@
-using System.Threading;
 using UnityEngine;
 
 public class PlatformMover : MonoBehaviour
@@ -43,7 +42,6 @@ public class PlatformMover : MonoBehaviour
     {
         if (transform.position.x >= start.position.x - 0.5f && transform.position.x <= start.position.x + 0.5f && transform.position.y >= start.position.y - 0.5f && transform.position.y <= start.position.y + 0.5f)
         {
-            Debug.Log("Arribaaa");
             currentTarget = end.position;
         }
         else if (transform.position.x >= end.position.x - 0.5f && transform.position.x <= end.position.x + 0.5f && transform.position.y >= end.position.y - 0.5f && transform.position.y <= end.position.y + 0.5f)
