@@ -17,14 +17,6 @@ public class PlayerManager : MonoBehaviour
             GameOver();
         }
     }
-    private void OnDestroy()
-    {
-        if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
-        {
-            loseText.gameObject.SetActive(true);
-            Time.timeScale = 0;
-        }
-    }
 
     void GameOver()
     {
