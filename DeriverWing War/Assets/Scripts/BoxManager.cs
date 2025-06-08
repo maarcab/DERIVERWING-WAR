@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -48,10 +47,6 @@ public class BoxManager : MonoBehaviour
                 Decompose();
                 timer = 0f;
             }
-        }
-        if (Input.GetKeyDown("f"))
-        {
-            Decompose();
         }
     }
 
