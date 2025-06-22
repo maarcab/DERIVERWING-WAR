@@ -3849,6 +3849,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box
       objectReference: {fileID: 0}
+    - target: {fileID: 3074250552575633957, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074250552575633957, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.02
+      objectReference: {fileID: 0}
     - target: {fileID: 6256598864370792515, guid: fbf9f53e8fe9a1f44b32a698298c941b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.3

@@ -4,6 +4,9 @@ public class PlatformMover : MonoBehaviour
 {
     private Vector3 currentTarget;
     private bool isMoving = false;
+    private bool isCloseToATarget;
+    private bool isCloseToStart;
+    private bool isCloseToEnd;
 
     [SerializeField] private float speed = 2f;
     [SerializeField] private Transform start, end;
@@ -19,7 +22,9 @@ public class PlatformMover : MonoBehaviour
 
         Move();
 
-        if (transform.position.x >= currentTarget.x - 0.1f && transform.position.x <= currentTarget.x + 0.1f && transform.position.y >= currentTarget.y - 0.1f && transform.position.y <= currentTarget.y + 0.1f)
+        isCloseToATarget = transform.position.x >= currentTarget.x - 0.1f && transform.position.x <= currentTarget.x + 0.1f && transform.position.y >= currentTarget.y - 0.1f && transform.position.y <= currentTarget.y + 0.1f;
+
+        if (isCloseToATarget)
         {
             isMoving = false;
             ToggleTarget();
@@ -40,11 +45,13 @@ public class PlatformMover : MonoBehaviour
 
     private void ToggleTarget()
     {
-        if (transform.position.x >= start.position.x - 0.5f && transform.position.x <= start.position.x + 0.5f && transform.position.y >= start.position.y - 0.5f && transform.position.y <= start.position.y + 0.5f)
+        isCloseToStart = transform.position.x >= start.position.x - 0.5f && transform.position.x <= start.position.x + 0.5f && transform.position.y >= start.position.y - 0.5f && transform.position.y <= start.position.y + 0.5f;
+        isCloseToEnd = transform.position.x >= end.position.x - 0.5f && transform.position.x <= end.position.x + 0.5f && transform.position.y >= end.position.y - 0.5f && transform.position.y <= end.position.y + 0.5f;
+        if (isCloseToStart)
         {
             currentTarget = end.position;
         }
-        else if (transform.position.x >= end.position.x - 0.5f && transform.position.x <= end.position.x + 0.5f && transform.position.y >= end.position.y - 0.5f && transform.position.y <= end.position.y + 0.5f)
+        else if (isCloseToEnd)
         {
             currentTarget = start.position;
         }

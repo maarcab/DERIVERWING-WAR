@@ -8,6 +8,7 @@ public class CargolAI : MonoBehaviour
     [SerializeField] private Transform wallCheck; 
 
     private bool movingRight = true;
+    private bool raycastHit;
 
     void Update()
     {
@@ -18,8 +19,10 @@ public class CargolAI : MonoBehaviour
     {
         transform.Translate(Vector2.right * (movingRight ? 1 : -1) * moveSpeed * Time.deltaTime);
 
-        if (!Physics2D.Raycast(groundCheck.position, Vector2.down, 0.1f, groundLayer) ||
-            Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, groundLayer))
+        raycastHit = !Physics2D.Raycast(groundCheck.position, Vector2.down, 0.1f, groundLayer) ||
+           Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, groundLayer);
+
+        if (raycastHit)
         {
             Flip();
         }

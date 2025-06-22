@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private float moveInput;
     private bool movingRight;
+    private bool raycastHit;
 
     void Start()
     {
@@ -30,10 +31,12 @@ public class PlayerMovement : MonoBehaviour
 
         CheckDirection();
 
-        if (!Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) && 
-            !Physics2D.Raycast(wallCheck2.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
-            !Physics2D.Raycast(wallCheck3.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
-            !Physics2D.Raycast(wallCheck4.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer))
+        raycastHit = Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
+            Physics2D.Raycast(wallCheck2.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
+            Physics2D.Raycast(wallCheck3.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer) &&
+            Physics2D.Raycast(wallCheck4.position, movingRight ? Vector2.right : Vector2.left, 0.1f, wallLayer);
+
+        if (!raycastHit)
         {
             transform.position += new Vector3(moveInput * moveSpeed * Time.deltaTime, 0f, 0f);
         }
