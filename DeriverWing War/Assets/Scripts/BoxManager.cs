@@ -24,14 +24,14 @@ public class BoxManager : MonoBehaviour
             Time.timeScale = 0;
         }
 
-        if (collision.CompareTag("Hongo"))
+        if (collision.CompareTag("Fungus"))
         {
             isDecomposing = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Hongo"))
+        if (collision.CompareTag("Fungus"))
         {
             isDecomposing = false;
             timer = 0f;

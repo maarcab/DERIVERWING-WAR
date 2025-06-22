@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4216223615102943606}
   - component: {fileID: 2660906110926280143}
   m_Layer: 2
-  m_Name: Hongo
-  m_TagString: Hongo
+  m_Name: Fungus
+  m_TagString: Fungus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

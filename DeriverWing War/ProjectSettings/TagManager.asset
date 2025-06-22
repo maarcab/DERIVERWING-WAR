@@ -9,6 +9,7 @@ TagManager:
   - PlayerKiller
   - Win
   - Hongo
+  - Fungus
   layers:
   - Default
   - TransparentFX

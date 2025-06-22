@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 6284640781537792632}
   - component: {fileID: 5316626393207289627}
   m_Layer: 2
-  m_Name: Cargol
+  m_Name: Snail
   m_TagString: PlayerKiller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
